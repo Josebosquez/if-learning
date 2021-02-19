@@ -2,6 +2,19 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
+function isItLong (string){
+if (string.length > 20){
+return "That's a long string!"}
+}
+
+function isItMedium (string){
+  console.log(string);
+}
+
+
+
+
+
 
 
 
