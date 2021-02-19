@@ -8,8 +8,19 @@ return "That's a long string!"}
 }
 
 function isItMedium (string){
-  console.log(string);
+  if (string.length >= 10 && string.length <= 20){
+  return "That's a regular sized string!"}
 }
+
+function isItShort (string){
+  if (string.length < 10){
+    return "That's a small string!"
+  }else{}
+  if (string.length >= 10){
+    return "That's not a small string!"
+  }
+}
+
 
 
 
