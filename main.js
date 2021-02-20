@@ -30,9 +30,15 @@ function howLongIsMyString (string){
         return "That's a small string!"} 
       }
 
-function 
-
-
+function instructorHeight (string) {
+  if (string == "Colin"){
+  return 62
+} 
+  if (string == "Mesuara"){
+  return 69
+}
+  else return "I don't know that instructor!"
+}
 
 
 
